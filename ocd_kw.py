@@ -1,0 +1,163 @@
+
+
+phases = ['VO_','SO_','DO_',]
+
+destination_folders = {
+    # TYPE OF aRCHITECTURE ELEMENT
+    'elements':{
+        'atrium':
+            {'keywords':
+                [
+                    'atrium','patio','binnenplaats','courtyard', 'inner',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'facade':
+            {'keywords':
+                [
+                    'facade','elevation','gvl','gevel'
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'volumes':
+            {'keywords':
+                [
+                    'volume','solid','mass',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'staircase':
+            { 'keywords':
+                [
+                    'stair',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'entrance':
+            {'keywords':
+                [
+                    'doors','entrance',
+                ]
+            ,
+            'exclude':
+                []
+            },
+    },
+    'drawings_types':{
+    # TYPICAL ARCHITECTURE REPRESENTAION
+        'plans':
+            {'keywords':
+                [
+                    'plan','plg','plattegrond','floor'
+                ]
+            ,
+            'exclude':
+                [
+                    'site','jpg','jpeg',
+                ]
+            },
+        'sections':
+            {'keywords':
+                [
+                    'section','secties','drs','doorsnede'
+                ]
+            ,
+            'exclude':
+                ['jpg,']
+            },
+        'details':
+            {'keywords':
+                [
+                    'detail','det',
+                ]
+            ,
+            'exclude':
+                ['jpg,']
+            },
+        'masterplan':
+            { 'keywords':
+                [
+                    'site','masterplan','master','context','plot',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'axos':
+            {'keywords':
+                [
+                    'axo',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        # TYPE OF IMAGE
+        'renders':
+            {'keywords':
+                [
+                    'render','shot','image','visualization','cam','img','view',
+                    'impress','perspective'
+                ]
+            ,
+            'exclude':
+                ['pdf',]
+            },
+        'sketch_and_scans':
+            {'keywords':
+                [
+                    'sketch','sketh','scan',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'inspirations':
+            {'keywords':
+                [
+                    'inspiration','reference',
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'schemes':
+            {'keywords':
+                [
+                    'scheme','diagram','explain','sheme'
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'presentations':
+            {'keywords':
+                [
+                    'presentaion','indd'
+                ]
+            ,
+            'exclude':
+                []
+            },
+        'ARCHICAD':
+            {'keywords':
+                [
+                    'pln',
+                ]
+            ,
+            'exclude':
+                []
+            },
+    },
+
+
+
+}
